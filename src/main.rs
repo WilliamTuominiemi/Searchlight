@@ -3,7 +3,7 @@ use walkdir::WalkDir;
 use std::io::{self, Write};
 
 fn main() {
-    print!("Please enter your keyword: ");
+    print!("Enter your keyword: ");
     io::stdout().flush().unwrap(); 
 
     let mut search_keyword = String::new();
